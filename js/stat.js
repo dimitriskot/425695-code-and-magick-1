@@ -46,7 +46,7 @@ window.renderStatistics = function (ctx, names, times) {
 
   var getColor = function (name) {
     var PLAYER_COLOR = 'rgba(255, 0, 0, 1)';
-    var PLAYERS_COLOR = 'rgba(28, 48, 251, ' + Math.random() + ')'
+    var PLAYERS_COLOR = 'rgba(28, 48, 251, ' + Math.random() + ')';
     if (name !== 'Вы') {
       ctx.fillStyle = PLAYERS_COLOR;
     } else {
